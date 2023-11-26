@@ -91,7 +91,7 @@ class BiliClient:
             params = {
                 'bvid': info['bvid'],
                 'cid': cid,
-                'qn': 120,
+                'qn': 80,
                 'otype': 'json',
             }
             data = self.get_api(url, params=params, cookies=cookies)
